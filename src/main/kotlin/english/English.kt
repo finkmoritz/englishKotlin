@@ -1,6 +1,7 @@
 package english
 
 import java.lang.Exception
+import kotlin.system.exitProcess
 
 /**
  * User: moritz
@@ -28,4 +29,12 @@ class English {
         }
         return variables[key]!!
     }
+
+    infix fun Stop(message: String) {
+        exitProcess(0)
+    }
+}
+
+infix fun String.and(other: String): String {
+    return this.plus(other)
 }
