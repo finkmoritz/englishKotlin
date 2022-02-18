@@ -3,11 +3,6 @@ package english
 import java.lang.Exception
 import kotlin.system.exitProcess
 
-/**
- * User: moritz
- * Date: 25.06.21
- * Time: 16:06
- */
 class English {
     val variables = mutableMapOf<String, Variable>()
 

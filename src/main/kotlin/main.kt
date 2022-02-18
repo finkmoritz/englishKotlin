@@ -1,8 +1,9 @@
 import english.*
 
-fun main(args: Array<String>) {
-    val english = English()
-    english `Create a variable named` "greeting" `with value` ("Hello" and " World!")
-    english Display (english `Get the value of variable named` "greeting")
-    english Stop "this program"
+fun main() {
+    with(English()) {
+        `Create a variable named` ("greeting") `with value` ("Hello" and " World!")
+        Display (`Get the value of variable named` ("greeting"))
+        Stop ("this program")
+    }
 }

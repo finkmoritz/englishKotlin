@@ -1,10 +1,5 @@
 package english
 
-/**
- * User: moritz
- * Date: 25.06.21
- * Time: 16:23
- */
 class Variable {
     var value : Any? = null
 
