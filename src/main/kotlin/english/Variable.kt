@@ -1,7 +1,7 @@
 package english
 
 class Variable {
-    var value : Any? = null
+    private var value : Any? = null
 
     infix fun `with value`(newValue: String) {
         value = newValue

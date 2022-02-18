@@ -4,7 +4,7 @@ import java.lang.Exception
 import kotlin.system.exitProcess
 
 class English {
-    val variables = mutableMapOf<String, Variable>()
+    private val variables = mutableMapOf<String, Variable>()
 
     infix fun Display(message: Any?) {
         print(message)
